@@ -13,6 +13,7 @@
     "@emailjs/browser": "^3.11.0",
     "@heroicons/react": "^2.0.18",
     "@iconscout/react-unicons": "^2.0.2",
+    "build": "^0.1.4",
     "emailjs": "^4.0.3",
     "framer-motion": "^10.16.4",
     "pagination": "^0.4.6",
