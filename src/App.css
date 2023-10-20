@@ -1,0 +1,41 @@
+#body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   font-family: "Gumela";
+    font-weight: normal;
+    font-size: 20px;
+}
+:root {
+
+
+  }
+.App{
+    padding: 0.5rem 3.5rem;
+    overflow: hidden;
+ 
+  }
+  .button{
+    text-align: center;
+    border-radius: 34px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-style: bold;
+    padding: 11px 26px 11px 26px;
+    background-color: #ffad19;
+    box-shadow: 0px 20px 24px 3px  #FFDEB5;
+   
+  }
+  .button:hover{
+    background-color: white;
+    color: #ffad19;
+    cursor: pointer;
+    border: 1px solid orange;
+
+  }
+  @media screen and (max-width:600px){
+      .App{padding: 0.5rem 1rem;}
+  }

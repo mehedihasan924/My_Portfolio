@@ -1,0 +1,121 @@
+.contact-from{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 80vh;
+    margin-top:15rem ;
+}
+.contact-awesome{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* margin-top: 5rem; */
+
+}
+.contact-awesome>:nth-child(1) {
+    color: var(--black);
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.contact-awesome>:nth-child(2){
+    color: orange;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.c-right{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex: 1;
+    left: 10%;
+}
+.c-right>form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+.c-right .user{
+    width: 30rem;
+    height: 2rem;
+    padding: 0.3em;
+    outline: none;
+    border-radius: 8px;
+    border: 2px solid orange;
+    font-size: 16px;
+}
+textarea{
+    height: 4rem !important;
+}
+.c-blur1{
+    top: 1rem;
+    left: 8rem;
+}
+.s-blur1{
+    position: absolute;
+    height:15rem ;
+    width: 21rem;
+    border-radius: 50%;
+    background: #c6eff8;
+    top:12rem ;
+    left:-12rem ;
+    z-index: -9;
+    filter: blur(72px);
+}
+.s-blur2{
+    position: absolute;
+    height:20rem ;
+    width: 20rem;
+    border-radius: 50%;
+    background: #edd0ff;
+    z-index: -9;
+    top: -18% !important;
+    left: 30%;
+    filter: blur(72px);
+}
+
+@media screen and (max-width:900px){
+    .contact-from{
+        margin-top:10rem ;
+        padding: 0 0rem 0 0rem;
+        display: flex;
+        flex-direction:column;
+        justify-content:center;
+        margin-bottom: 150px;
+    }
+    .c-right{ 
+        display: flex;
+        justify-content: center;
+        position: relative;
+        flex: 1;
+        left: 0;
+       
+    }
+    .contact-awesome{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .c-right .user{
+        width: 30rem;
+        height: 1rem;  
+        outline: none;
+        border-radius: 8px;
+        border: 2px solid orange;
+        font-size: 16px;
+    }
+  
+    .contact-awesome>:nth-child(1) {
+        color: var(--black);
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    .contact-awesome>:nth-child(2){
+        color: orange;
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width:600px){
+    .c-right .user{
+        width: 120%;
+    }
+}
