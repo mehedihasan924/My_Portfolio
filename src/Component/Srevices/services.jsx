@@ -4,15 +4,22 @@ import HeartEmoji from '../../image/heartemoji.png';
 import Glasses from '../../image/glasses.png';
 import Humble from '../../image/humble.png';
 import Card from  '../Card/card'
-import Resume from './../Srevices/blue professional modern CV resume.pdf'
+import Resume from './../Srevices/myCV.pdf'
 import { themeContext } from '../../Context';
 import { useContext } from 'react';
 import{ motion} from 'framer-motion'
+
+
+
 const services = () => {
   const transition={duration: 1 ,type :'spring'}
 
   const theme =useContext(themeContext);
   const darkMode =theme.state.darkMode;
+
+  const styleCart ={
+    paddingButton:'1rem'
+  }
 
   return (
     <div className="srevices" id='services'>
@@ -35,7 +42,8 @@ const services = () => {
                    whileInView={{left :"25rem"}}
                    transition={transition} 
                    style={{left:'14rem'}}>
-                <Card
+                <Card 
+                  className="first-cart"
                   emoji={HeartEmoji }
                   heading={"Design"}
                   detail={"Figma, Photoshop,Adobe, Adobe xd"}

@@ -26,7 +26,7 @@
     margin-bottom: -1rem;
 }
 .c-button{
-    background: #FFFFFF;
+    background: #ffffff;
     padding: 10px !important;
     border-radius: 7px;
     box-shadow: 0px 19px 60px rgba(0, 0, 0, 0.08);
@@ -53,6 +53,7 @@
         padding-top: 10px;
        
     }
+    
   
 }
 @media screen and (max-width:400px){
@@ -63,4 +64,5 @@
         justify-content: center;
         margin-bottom: 5rem;
     }
+    
 }
