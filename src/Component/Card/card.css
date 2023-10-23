@@ -43,15 +43,9 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-bottom: 5rem;
-        /* gap: 10rem; */
-
-
+        margin-bottom: 5rem;     
     }
-    .c-button:hover{
-        background:#5290FD;
-        color: #FFFF;
-    }
+
     .cart-item{
         display: flex;
         flex-direction: column;
@@ -60,4 +54,13 @@
        
     }
   
+}
+@media screen and (max-width:400px){
+    .card{
+        width: 70%;   
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 5rem;
+    }
 }

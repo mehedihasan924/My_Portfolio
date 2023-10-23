@@ -102,3 +102,9 @@
         height: auto;
     }
 }
+@media screen and (max-width:400px){  
+    .testimonials-carousel{
+        width: 15rem;
+        height: auto;
+    }
+}

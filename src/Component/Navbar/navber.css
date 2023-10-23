@@ -54,6 +54,7 @@
 @media screen and (min-width:700px){
 .menu-list-button{
   display: none;
+  
 }
 }
 @media screen and (max-width:700px){
@@ -61,28 +62,27 @@
         padding-top:0px;
         position: absolute;
         right: 18px;
-        top: 39px;
+        top: 20px;
     }
     .open{
         top: 0px;
     }
     .close{
-        top: -200px;
+        top: -400px;
     }
     .menu-list-toggle{
         display: block;
         position: absolute;
-        animation-duration: 1s;
-       
+  
     }
     .menu-list>ul{
         display: block;
         right: -39px;
         padding-bottom: 2px;
-
+        animation-duration: 3ms;
     }
     .menu-list>ul li{
-        
+        top: 10px;
     }
 }
 

@@ -8,12 +8,12 @@ const Experience = () => {
   return (
     <div className='experience' id='experience' >
         <div className='achievement'>
-            <div className='circle'>20+</div>
+            <div className='circle'>02+</div>
             <span> Years</span>
             <span> Experience</span>
         </div>
         <div className='achievement'>
-            <div className='circle' >25+</div> 
+            <div className='circle' >20+</div> 
             <span> Completed</span>
             <span> Project</span>
         </div>

@@ -49,7 +49,7 @@ const services = () => {
                whileInView={{left :"5rem"}}
                transition={transition} 
               
-              style={{top:'13rem', left:'4rem'}}>
+               style={{top:'13rem', left:'4rem'}}>
                 <Card
                   emoji={ Glasses }
                   heading={"Developer"}

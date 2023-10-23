@@ -23,7 +23,7 @@ import { useContext } from 'react';
     }}
     >               
          <Navber /> 
-       < Intro />
+         <Intro />
          <Srevices />
          <Experience/> 
          <Work/> 
